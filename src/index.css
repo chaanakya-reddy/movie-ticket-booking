@@ -1,0 +1,22 @@
+:root {
+  --dark-blue: #0A192F;
+  --white: #FFFFFF;
+  --light-gold: #E6B31E;
+  --gray: #F0F0F0;
+  --dark-gray: #333333;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--gray);
+  color: var(--dark-blue);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 15px 0;
+}
